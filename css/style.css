@@ -177,7 +177,7 @@ background-image: url(../img/about/about-bg-1.gif);
 }
 
 .about-bg-2 {
-background-image: url(../img/about/about-bg-2.jpg);
+background-image: url(../img/about/about-bg-2.png);
 }
 
 
@@ -1191,6 +1191,10 @@ min-height: 350px;
 @media only screen and (max-width: 995px) {
   .halves-about .half-about-1 {
     min-height: 350px;
+  }
+
+  .about-bg-2 {
+    background-image: url(../img/about/about-bg-2-horizontal.png);
   }
 }
 
@@ -4440,4 +4444,8 @@ visibility: hidden;
   transition: all 0.3s ease-in-out;
   border:#000 15px dashed;
 
+}
+
+.slick-dots {
+  bottom:100px;
 }
