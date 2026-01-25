@@ -1606,6 +1606,12 @@ cursor: pointer;
   }
 }
 
+.navbar-brand.hidden-sm.hidden-md.hidden-lg.logo.page-scroll.active {
+  top: 0px;
+  left: 10px;
+  position: absolute;
+}
+
 .main-navigation .navbar-nav li a:hover {
 color: #5f5f5f;
 -webkit-transition: all .4s ease-out;
@@ -1794,6 +1800,8 @@ z-index: 5;
   .section-heading{
     font-size: 50px!important;
   }
+
+
 }
 
 @media only screen and (max-width: 640px) {
@@ -3913,7 +3921,7 @@ display: none;
   .html5-bg {
     position: relative;
     height: 100%;
-	background-image: url(../img/background/html5-bg.jpg);
+	  background-image: url(../img/background/html5-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;
@@ -3924,7 +3932,88 @@ display: none;
 			/* uncomment the following to show an image for mobile devices */
             display: block;
   }
+
+  .sections {
+    width: 80%!important;
+  }
+  .section-heading{
+    font-size: 50px!important;
+  }
 }
+
+@media only screen and (max-width: 640px) {
+  .html5-bg {
+    position: relative;
+    height: 100%;
+	  background-image: url(../img/background/html5-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+        -ms-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+			/* uncomment the following to show an image for mobile devices */
+            display: block;
+  }
+
+  .sections {
+    width: 80%!important;
+  }
+  .section-heading{
+    font-size: 50px!important;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .html5-bg {
+    position: relative;
+    height: 100%;
+	  background-image: url(../img/background/html5-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+        -ms-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+			/* uncomment the following to show an image for mobile devices */
+            display: block;
+  }
+
+  .sections {
+    width: 80%!important;
+  }
+  .section-heading{
+    font-size: 50px!important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .html5-bg {
+    position: relative;
+    height: 100%;
+	  background-image: url(../img/background/html5-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+        -ms-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+			/* uncomment the following to show an image for mobile devices */
+            display: block;
+  }
+
+  .sections {
+    width: 80%!important;
+  }
+  .section-heading{
+    font-size: 50px!important;
+  }
+}
+
+
 
 .html5-videoContainment {
 position: absolute;
